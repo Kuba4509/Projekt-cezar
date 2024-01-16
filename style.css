@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: beige;
+  }
+  .srodek {
+    width: 600px;
+    height: 600px;
+    text-align: center;
+  }
+  .button{
+    background-color: #ffffff;
+    color: #44aaaa;
+    border: 1px solid #44aaaa;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    margin:5px 5px;
+    display: inline-block;
+}
+.button a:hover{
+    background-color: #44aaaa;
+    color: #ffffff;
+    border: 1px solid #44aaaa;
+}
